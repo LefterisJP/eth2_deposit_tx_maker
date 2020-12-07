@@ -8,8 +8,6 @@ from eth_account._utils.transactions import (
 )
 from web3 import Web3
 
-from ledger import LedgerAccount
-
 
 def get_eth2_deposit_data():
     with Path('data.json').open(mode='r') as f:
